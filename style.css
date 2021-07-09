@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+font-size:62.5%;
+font-family: Arial, Helvetica, sans-serif;
+}
+.main_container{
+    
+    margin-top: 10rem;
+    display: grid;
+    place-items: center;
+}
+.layout{
+    width: 25%;
+
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: dimgrey;
+}
+.layout #title{
+    margin-top: 1rem;
+    justify-content: center;
+    color: aqua;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+text-shadow: chartreuse;
+padding-bottom: 1rem;
+}
+.layout #artist{
+    margin-top: 1rem;
+    justify-content: center;
+    color: rgb(177, 22, 112);
+    text-align: center;
+    text-shadow: beige;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    padding-bottom: 5rem;
+}
+.icons{
+    justify-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.fas{
+   padding: 2rem;
+    text-align: center;
+    display: inline-block;
+justify-content: center;
+    margin: 1.5rem;
+}
+.img_container{
+    width: 25rem;
+    height: 25rem;
+     margin: auto;
+    
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+    
+}
+.main_button{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #111;
+    color: #f6f6f6;
+    font-size: 1.2rem;
+}
+.fa-play:hover{
+    background-color: #f6f6f6;
+    color: #111;
+}
+.fas:hover{
+    color: grey;
+}
