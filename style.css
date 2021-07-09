@@ -98,13 +98,10 @@ img{
         transform: scale(0.8);
     }
 }
-@media (max-width: 500px){
+@media (max-width: 1338px){
     
     .layout{
-        width: 82%;
-       justify-content: center;
-        border: 1px solid grey;
-        border-radius: 10px;
-        background-color: dimgrey;
+        width: 60%;
+       
     }
 }
