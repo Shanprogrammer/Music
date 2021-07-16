@@ -19,6 +19,7 @@ font-family: Arial, Helvetica, sans-serif;
 .layout{
     width: 25%;
    justify-content: center;
+   position: relative;
     border: 1px solid grey;
     border-radius: 10px;
     background-color: dimgrey;
@@ -86,22 +87,18 @@ img{
 .fas:hover{
     color: grey;
 }
-@keyframes rotatePlayer{
-    0%{
-        transform: scale(0.8);
-    }
-    50% {
-        transform: scale(1);
-    }
 
-    100% {
-        transform: scale(0.8);
-    }
-}
-@media (max-width: 1338px){
+@media (max-width: 720px){
     
     .layout{
-        width: 60%;
-       
+       width: 93%;
+       position: relative;
+    }
+}
+@media (max-width: 1024){
+    
+    .layout{
+       width: 93%;
+       position: relative;
     }
 }
